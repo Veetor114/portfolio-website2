@@ -82,7 +82,7 @@ ul li a:hover{
     color: green;
 }
 
-#section{
+#home{
 background-color: aquamarine;
 }
 
@@ -110,7 +110,7 @@ gap: 4rem;
     font-size: 2rem;
 }
 
-.title{
+.title {
 font-size: 1.5rem;
 font-weight: 400;
 color: yellowgreen;
@@ -172,6 +172,122 @@ background-color: yellowgreen;
     border-radius: 30%;
 }
 
+h2 {
+    font-weight: 600;
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section {
+    display: block;
+}
+
+#projects{
+    background-color: yellowgreen;
+    margin: auto;
+}
+
+.project-section {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin:auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#projects .img-link{
+    width: min(25rem, 90%);
+    height: min(25rem, 90%);
+    border-radius: 10%;
+}
+
+.p-subtitle{
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color:black;
+    border-radius: 5%;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+.p-subtitle:hover{
+    color:aquamarine;
+}
+
+#contact{
+    background-color: aliceblue;
+   
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    max-width: 1200px;
+    min-height: 70vh;
+    margin: auto;
+}
+
+h3{
+    padding-top: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+} 
+
+.c-subtitle {
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+.profile-link{
+    letter-spacing: 2px;
+    color: #000;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.profile-link:hover{
+    border-bottom-color: black;
+    color: green;
+}
+
+.project-btn, button a {
+    display: flex;
+    gap: 1rem;
+    color: #000;
+justify-content: center;
+}
+
+.project-btn button {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.project-btn button:hover{
+    background-color: green;
+}
 
 @media (width < 750px){
     nav .checkbox {
@@ -203,13 +319,48 @@ text-align: center;
 grid-template-columns: repeat(1, 1fr);
 }
 
-.image{
+.image {
  grid-area: 1/1/2/2;
 }
 
 .action-btn{
 margin: auto;
 }
+
+.project-section {
+    display: inline-block;
+    padding: 10rem 1rem 5rem 1rem;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin:auto;
+    grid-template-columns: repeat(1, 1fr);
 }
 
+.img-link{
+grid-area: 1/1/2/2;
+}
+
+.contact-section{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    min-height: 50vh;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+ h3 {
+    font-size: 1.25rem;
+}
+
+.c-subtitle{
+    font-size: .8rem;
+
+}
+
+.profile-link{
+    font-size: 1.2rem;
+}
+}
 
