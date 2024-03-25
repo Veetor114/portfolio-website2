@@ -104,7 +104,7 @@ gap: 4rem;
 
 .subtitle{
     letter-spacing: 2px;
-    color:green;
+    color: black;
     font-weight: 600;
     margin-bottom: .5rem;
     font-size: 2rem;
@@ -113,7 +113,7 @@ gap: 4rem;
 .title {
 font-size: 1.5rem;
 font-weight: 400;
-color: yellowgreen;
+color: black;
 margin-bottom: 1rem;
 }
 
@@ -123,7 +123,6 @@ font-size: 600;
 
 .desc{
 line-height: 1.5rem;
-color: yellowgreen;
 margin-bottom: 2rem;
 }
 
@@ -162,7 +161,7 @@ background-color: yellowgreen;
     background-color: aquamarine;
 }
 
-.image{
+.image {
     display: grid;
     place-items:center;
 }
@@ -180,7 +179,7 @@ h2 {
 }
 
 section {
-    display: block;
+    display: grid;
 }
 
 #projects{
@@ -221,17 +220,15 @@ section {
 
 #contact{
     background-color: aliceblue;
-   
 }
 
-.contact-section{
+.contact-section{   
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
     max-width: 1200px;
-    min-height: 70vh;
-    margin: auto;
+    min-height: 50vh;
+    margin: 10px;
 }
 
 h3{
@@ -343,11 +340,10 @@ grid-area: 1/1/2/2;
 .contact-section{
     display: inline-block;
     align-items: center;
-    justify-content: space-evenly;
     max-width: 1200px;
     min-height: 50vh;
+    padding: 20px 12px 0 0;
     margin: auto;
-    grid-template-columns: repeat(1, 1fr);
 }
 
  h3 {
@@ -360,7 +356,7 @@ grid-area: 1/1/2/2;
 }
 
 .profile-link{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 }
 
