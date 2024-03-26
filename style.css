@@ -220,6 +220,7 @@ section {
 
 #contact{
     background-color: aliceblue;
+    margin: auto;
 }
 
 .contact-section{   
@@ -251,7 +252,7 @@ h3{
     letter-spacing: 2px;
     color: #000;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     justify-content: space-evenly;
     border-bottom: 2px solid transparent;
